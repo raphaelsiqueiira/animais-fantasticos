@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animais Fantásticos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.className += " js"
+  </script>
+</head>
+
+<body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu" class="">Menu</button>
+      <ul data-menu="list" id="menu" class="">
+        <li><a href="#animais">Animais</a></li>
+        <li data-dropdown="">
+          <a href="sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">A Empresa</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="socios.html">Sócios</a></li>
+            <li><a href="investidores.html">Investidores</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
+      </ul>
+    </nav>
+    <section class="grid-section animais" data-anime="scroll" id="animais" aria-labelledby="titulo-animais">
+      <h1 class="titulo" id="titulo-animais">Animais Fantásticos</h1>
+      <ul class="animais-lista" data-tab="menu">
+        <li>
+          <img src="img/raposa-vermelha.jpg" alt="Raposa vermelha se apoiando sobe duas patas e olhando para cima, com o fundo desfocado" width="600" height="800">
+        </li>
+        <li>
+          <img src="img/esquilo-vermelho.jpg" alt="Esquilo Vermelho olhando para frente com fundo escuro" width="600" height="800">
+        </li>
+        <li>
+          <img src="img/urso-negro.jpg" alt="Urso negro em uma floresta e uma montanha ao fundo" width="600" height="800">
+        </li>
+        <li>
+          <img src="img/lobo-cinza.jpg" alt="Lobo cinzento com fundo desfocado" width="600" height="800">
+        </li>
+        <li>
+          <img src="img/mandril.jpg" alt="Mandril cem ambiente com fundo escuro" width="600" height="800">
+        </li>
+        <li>
+          <img src="img/leao.jpg" alt="Leão" width="600" height="800">
+        </li>
+      </ul>
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Raposa Vermelha <i>(Vulpes vulpes)</i></h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p> As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Esquilo Vermelho <i>(Sciurus vulgaris)</i></h2>
+          <p>O esquilo-vermelho ou esquilo-vermelho-eurasiático <i>(Sciurus vulgaris)</i> é uma espécie de esquilo pertencente ao género Sciurus. É um roedor omnívoro que habita árvores, sendo muito comum por toda a Eurásia.</p>
+          <p>O esquilo-vermelho tem um comprimento típico de 19 a 23 cm (excluindo a cauda), uma cauda entre 15 e 20 cm de comprimento e um peso entre 250 e 340 g. Não apresenta dimorfismo sexual, pois machos e fêmeas têm o mesmo tamanho. Pensa-se que a longa cauda do esquilo o ajuda a manter o equilíbrio e postura quando salta de árvore em árvore e corre ao longo de ramos, podendo também ajudar o animal a manter-se quente durante o sono.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Urso Negro <i>(Ursus americanus)</i></h2>
+          <p>O Urso Negro <i>(Ursus americanus)</i>, também conhecido como baribal, é um urso norte-americano, encontrado do Alasca ao Norte do México. Alcança 2,20 m de comprimento, 1,10 m de altura na cernelha e 360 kg de peso. O urso negro geralmente vive cerca de 15 anos, mas alguns podem alcançar até 40 anos. É um bom nadador e pode correr a até 50 km/h. Sua pelagem pode ser de cor negra, marrom, bege ou branca. Algumas subespécies estão ameaçadas de extinção.</p>
+          <p>Desde pequeno, o urso-negro tem grande habilidade para subir em árvores e montanhas. É principalmente um habitante da floresta, mas sua pelagem espessa permitiu que se dispersasse para o norte até os limites da tundra. No inverno, hiberna em uma toca, geralmente um oco sob uma árvore caída, dentro de um tronco toco ou em uma toca abandonada.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Lobo Cinzento <i>(Canis lupus)</i></h2>
+          <p>É uma espécie de mamífero canídeo do gênero Canis. É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás. É o maior membro remanescente selvagem da família Canidae.</p>
+          <p> Os lobos-cinzentos são tipicamente predadores ápice nos ecossistemas que ocupam. Embora não sejam tão adaptáveis à presença humana como geralmente ocorre com as demais espécies de canídeos,os lobos se desenvolveram em diversos ambientes, como florestas temperadas, florestas tropicais, pantanos, praias, desertos, montanhas, tundras, selvas, taigas, campos (Savanas, Prados, Planícies, Estepes, Matagais,...) e até mesmo em algumas áreas urbanas e rurais.</p>
+          <p>Ao contrário dos ursos, que são solitários, semidiurnos e que dormem na hibernação, os lobos são animais migratórios, seminoturnos (metade noturno, metade diurno) e são gregários, ou seja, que preferem viver em alcateias ou matilhas.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Mandril <i>(Mandrillus sphinx)</i></h2>
+          <p>O mandril <i>(Mandrillus sphinx)</i> é um primata da família dos Cercopithecidae (Macacos do velho mundo), parentes próximos dos babuínos e ainda mais próximos do dril. Tanto o mandril quanto o dril eram antes classificados como babuínos do gênero Papio, mas pesquisas recentes determinaram que eles deveriam constituir um gênero à parte, Mandrillus</p>
+          <p> O mandril é reconhecido pela sua pelagem verde-oliva e a face e nádegas multicoloridas nos machos, coloração que se torna mais intensa à medida que chega a maturidade sexual, tornando-se ainda mais pronunciada nos momentos de excitação. </p>
+          <p> Eles podem crescer até medirem cerca de um metro e podem viver até 25 anos. As fêmeas alcançam a maturidade sexual com aproximadamente 3,5 anos.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Leão Asiático <i>(Panthera leo leo)</i></h2>
+          <p>O leão-asiático <i>(Panthera leo leo)</i>, também chamado de leão-indiano ou leão-persa, é uma população de leão que está listada como em perigo de extinção pela UICN, devido a sua pequena população. Desde 2010, a população de leões asiáticos vem aumentando de forma constante ao redor do Parque Nacional da Floresta de Gir no oeste da Índia.</p>
+          <p> Desde 2017 devido às grandes semelhanças genéticas e morfológicas com o Leão Norte Africano e Leão da África Ocidental, e o Leão da África Central, a subspécie passou a estar agrupada como Panthera Leo Leo, abandonando-se assim a designação Panthera Leo Persica.</p>
+        </section>
+      </div>
+    </section>
+    <section class="grid-section faq" data-anime="scroll" id="faq" aria-labelledby="titulo-faq">
+      <h1 class="titulo" id="titulo-faq">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
+        <dt>Eles são fantásticos?</dt>
+        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
+        <dt>Qual a diferença ?</dt>
+        <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
+        <dt>Como proteger?</dt>
+        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
+      </dl>
+    </section>
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numeros-grid">
+
+      </div>
+    </section>
+
+    <section class="grid-section contato" data-anime="scroll" id="contato" aria-labelledby="titulo-contato">
+      <h1 class="titulo" id="titulo-contato">Contato</h1>
+      <div class="contato-mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
+        <img src="img/mapa.png" alt="Mapa da localização da empresa Animais Fantásticos.">
+      </div>
+      <address>
+        <ul class="contato-dados">
+          <li><a href="mailto:contato@origamid.com">contato@origamid.com</a></li>
+          <li><a href="tel:+5521992345678">+55 (21) 99234-5678</a></li>
+          <li>Rua do Conde, nº 21</li>
+          <li>Rio de Janeiro - RJ</li>
+          <li>Doe <span class="btc-preco">0</span> bitcoin para no ajudar</li>
+          <li data-semana="1,2,3,4,5" data-horario='8,18'>Seg à Sex das 8 às 18</li>
+        </ul>
+      </address>
+    </section>
+    <footer class="copy" aria-label="rodápe">
+      <p class="copy-texto">Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="email" for="email" id="email" autocomplete="email">
+
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha" autocomplete="current-password">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
