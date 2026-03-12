@@ -1,7 +1,7 @@
 import Accordion from "./modules/accordion.js";
 import initDropdownMenu from "./modules/dropdown-menu.js";
 import fetchAnimais from "./modules/fetch-animais.js";
-import initFetchBitcoin from "./modules/fetch-bitcoin.js";
+import fetchBitcoin from "./modules/fetch-bitcoin.js";
 import initFuncionamento from "./modules/funcionamento.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import Modal from "./modules/modal.js";
@@ -35,6 +35,6 @@ initAnimacaoScroll();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
-initFetchBitcoin();
 
-fetchAnimais("../../animais-api.json",".numeros-grid");
+fetchAnimais("../../animais-api.json", ".numeros-grid");
+fetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
